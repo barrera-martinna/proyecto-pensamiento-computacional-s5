@@ -14,7 +14,7 @@ let scrollFrame = 0;
 let mouseFrame = 0;
 
 //funcion para cargar las imagenes en el sketch
-function preload() {
+function preloadDesactivado() {
 
   // imagen intermediaria con textoss
   a1 = loadImage("a1.jpg");
