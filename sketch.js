@@ -46,7 +46,14 @@ function preload() {
 
 function setup() {
 
-  createCanvas(windowWidth, windowHeight);
+  // Buscamos tu contenedor HTML y medimos el espacio disponible que deja la franja
+  let contenedor = document.getElementById('contenedor-canvas');
+  let anchoDisponible = contenedor.clientWidth;
+  let altoDisponible = contenedor.clientHeight;
+
+  // Creamos el lienzo con esas medidas y lo metemos en tu contenedor
+  let canvas = createCanvas(anchoDisponible, altoDisponible);
+  canvas.parent('contenedor-canvas');
 
   textAlign(CENTER, CENTER);
 
@@ -204,8 +211,8 @@ function mostrarTexto(mensaje) {
 //funcion para que el sketch sea adaptable a las pantallas 
 function windowResized() {
 
-  resizeCanvas( windowWidth, windowHeight);
+  // Reajusta el lienzo midiendo de nuevo el espacio libre del contenedor en tiempo real
+  let contenedor = document.getElementById('contenedor-canvas');
+  resizeCanvas(contenedor.clientWidth, contenedor.clientHeight);
 
 }
-
-//inspiracion escena de up cuando la casa esta volando y quedan colgando de una soga, russel, carl y el perro 
