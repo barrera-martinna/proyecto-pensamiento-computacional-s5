@@ -6,7 +6,7 @@ Martinna Barrera
 ## Link de web pública (github pages)
 
 <https://link.com>
-(https://barrera-martinna.github.io/proyecto-pensamiento-computacional-s5/)
+
 ### Título del proyecto
 
 up! Russell
