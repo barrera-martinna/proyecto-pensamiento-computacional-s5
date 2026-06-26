@@ -12,7 +12,7 @@ Up: una aventura en altura
 
 ### Referencia de origen / bibliografía
 
-Pelicula up: una aventura en altura, del año 2009. Pais de origen: Estados Unidos, del estudio Pixar Animation Studios y Walt Disney Pictures. Carl es un vendedor de globos, el cual tiene un sueño de volar con su casa llena de globos sudamerica y de pronto conoce a Russel con quien primero mantiene un recelo, pero luego, estos comienzan a vivir grandes aventuras juntos, volando por ditintos lugares. 
+Pelicula up: una aventura en altura, del año 2009. Pais de origen: Estados Unidos, del estudio Pixar Animation Studios y Walt Disney Pictures. Carl es un vendedor de globos, el cual tiene un sueño de volar con su casa llena de globos sudamerica y de pronto conoce a Russel con quien primero mantiene un recelo, pero luego, estos comienzan a vivir grandes aventuras juntos volando por ditintos lugares. 
 
 ### Imagen de referencia de proyecto
 <img width="1024" height="1032" alt="portada up" src="https://github.com/user-attachments/assets/90a1644d-7da6-44e7-bff7-44fd81134180" />
@@ -30,7 +30,7 @@ Martinna Barrera [barrera-martinna](https://github.com/barrera-martinna)
 
 ### Relato inicial
 
-Tomando de referencia principal la escena donde se encuentran Rusell, Carl y el perrito colgando de una soga desde la casa en el aire. A partir de estareferencia de escena en la pelicula, se genero el relato que consta de 3 escenas, la primera en donde se encuentra la casa y sus globos el cual este era el sueño de Carl. luego en la segunda escena la casa comienza a volar y finalmente up! el niño Russel cae de la casa. 
+Tomando de referencia principal la escena donde se encuentran Rusell, Carl y el perrito colgando de una soga desde la casa en el aire. A partir de esta referencia de escena en la pelicula, se genero el relato que consta de 3 escenas, la primera en donde se encuentra la casa y sus globos el cual este era el sueño de Carl. luego en la segunda escena la casa comienza a volar y finalmente up! el niño Russel cae de la casa. 
 
 ### Storyboard
 
@@ -38,7 +38,7 @@ Imágenes del storyboard, las que deben verse acá y estar subidas en el mismo r
 
 ### Estados
 
-El proyecto en p5.js contiene 7 estados los cuales 3 presentan escenas (escena 1: con la funcion mousePressed clickeando la pantalla aparece la casa y se le comienzan a poner los globos) (escena 2: en donde con la funcion mouseWheel se hace scroll y la casa comienza a elevarse con sus globos) (escenna 3: en donde con la funcion mouseMoved de repente el niño Russell cae desde la casa que estaba en el aire). Los otros tres estados resultan como intermediarios dando indicaciones sobre la interaccion necesaria para ejecutar las siguientes escenas y el ultimo presetna la imagen intermediaria con un texto que dice fin. 
+El proyecto en p5.js contiene 7 estados los cuales 3 presentan escenas (escena 1: con la funcion mousePressed clickeando la pantalla aparece la casa y se le comienzan a poner los globos) (escena 2: en donde con la funcion mouseWheel se hace scroll y la casa comienza a elevarse con sus globos) (escena 3: en donde con la funcion mouseMoved de repente el niño Russell cae desde la casa que estaba en el aire). Los otros tres estados resultan como intermediarios dando indicaciones sobre la interaccion necesaria para ejecutar las siguientes escenas y el ultimo presenta la imagen intermediaria con un texto que dice fin. 
 
 #### Estado 1 de escena 
 
