@@ -1,34 +1,39 @@
-/* Elimina márgenes molestos del navegador */
+/* Elimina márgenes molestos y configura la estructura vertical de la pantalla */
 html, body {
     margin: 0;
     padding: 0;
     width: 100%;
-    font-family: 'Arial Black', Gadget, sans-serif; /* Fuente gruesa para resaltar el borde */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* Evita que aparezcan barras de scroll en el navegador */
+    font-family: 'Arial Black', Gadget, sans-serif;
     background-color: #f5f5f5;
 }
 
 /* Diseño de la franja naranja de 4cm de alto */
 .franja-superior {
     background-color: #ff6600; /* Naranja encendido */
-    width: 100%;               /* Llena toda la pantalla horizontalmente */
-    height: 4cm;               /* Altura exacta de por lo menos 4 centímetros */
-    display: flex;             /* Usado para centrar el texto vertical y horizontalmente */
+    width: 100%;
+    height: 4cm; /* Altura exacta de tu diseño original */
+    display: flex;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    flex-shrink: 0; /* Impide que la franja naranja se deforme o se achique */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra decorativa abajo */
 }
 
 /* Estilo del texto blanco con borde negro */
 .franja-superior h1 {
     margin: 0;
-    font-size: 42px;           /* Tamaño grande y visible */
-    color: white;              /* Letras blancas */
-    text-transform: none;      /* Respeta tus mayúsculas y minúsculas */
+    font-size: 42px; /* Tamaño grande y visible */
+    color: white; /* Letras blancas */
+    text-transform: none; /* Respeta tus mayúsculas y minúsculas */
     
     /* Truco de CSS para simular un borde negro alrededor de las letras blancas */
-    text-shadow: 
-        -2px -2px 0 #000,  
+    text-shadow:
+        -2px -2px 0 #000,
          2px -2px 0 #000,
         -2px  2px 0 #000,
          2px  2px 0 #000,
@@ -38,15 +43,18 @@ html, body {
          0px  3px 0 #000;
 }
 
-/* Centra el recuadro del código de p5.js abajo */
+/* Contenedor que ocupará TODO el espacio restante de la pantalla */
 #contenedor-canvas {
+    flex-grow: 1; /* Obliga a la caja a estirarse para rellenar el vacío */
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px 20px;
+    box-sizing: border-box;
 }
 
+/* Quita imperfecciones y añade sombra al lienzo de p5.js */
 canvas {
+    display: block; /* Elimina un pequeño margen inferior invisible propio de las imágenes */
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
 }
