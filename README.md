@@ -25,7 +25,7 @@ Martinna Barrera [barrera-martinna](https://github.com/barrera-martinna)
 
 
 ### Enlace de p5.js 
-
+<https://editor.p5js.org/martinna/sketches/k1uFrxhB7>
 <https://editor.p5js.org/martinna/full/k1uFrxhB7>
 
 ### Relato inicial
