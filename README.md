@@ -16,7 +16,7 @@ Pelicula up: una aventura en altura, del año 2009. Pais de origen: Estados Unid
 
 ### Imagen de referencia de proyecto
 <img width="1024" height="1032" alt="portada up" src="https://github.com/user-attachments/assets/90a1644d-7da6-44e7-bff7-44fd81134180" />
-Portada del relato. Up
+
 
 ### Integrantes
 
