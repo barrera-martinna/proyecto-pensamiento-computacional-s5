@@ -39,7 +39,7 @@ Imágenes del storyboard, las que deben verse acá y estar subidas en el mismo r
 
 ### Estados
 
-El proyecto en p5.js contiene 7 estados los cuales 3 presentan escenas (escena 1: con la funcion mousePressed clickeando la pantalla aparece la casa y se le comienzan a poner los globos) (escena 2: en donde con la funcion mouseWheel se hace scroll y la casa comienza a elevarse con sus globos) (escenna 3: en donde con la funcion mouseMoved de repente el niño Russell cae desde la casa que estaba en el aire). Los otros tres estados resultan como intermediarios dando indicaciones sobre la interaccion necesaria para ejecutar las siguientes escenas. 
+El proyecto en p5.js contiene 7 estados los cuales 3 presentan escenas (escena 1: con la funcion mousePressed clickeando la pantalla aparece la casa y se le comienzan a poner los globos) (escena 2: en donde con la funcion mouseWheel se hace scroll y la casa comienza a elevarse con sus globos) (escenna 3: en donde con la funcion mouseMoved de repente el niño Russell cae desde la casa que estaba en el aire). Los otros tres estados resultan como intermediarios dando indicaciones sobre la interaccion necesaria para ejecutar las siguientes escenas y el ultimo presetna la imagen intermediaria con un texto que dice fin. 
 
 #### Estado 1 de escena 
 
