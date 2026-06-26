@@ -33,7 +33,7 @@ Martinna Barrera [barrera-martinna](https://github.com/barrera-martinna)
 Tomando de referencia principal la escena donde se encuentran Rusell, Carl y el perrito colgando de una soga desde la casa en el aire. A partir de esta referencia de escena en la pelicula, se genero el relato que consta de 3 escenas, la primera en donde se encuentra la casa y sus globos el cual este era el sueño de Carl. luego en la segunda escena la casa comienza a volar y finalmente up! el niño Russel cae de la casa. 
 
 ### Storyboard
-<img width="3512" height="2427" alt="1000141944" src="https://github.com/user-attachments/assets/77fee04e-cea5-4593-81c5-b23ae7cccfa4" />
+<img width="5925" height="4061" alt="WhatsApp Scan 2026-06-26 at 12 05 56_page-0001" src="https://github.com/user-attachments/assets/d3b4b944-7c55-422c-abe7-e0c51a940f9a" />
 
 
 
