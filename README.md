@@ -17,7 +17,8 @@ up! Russell
 Pelicula up: una aventura en altura, del año 2009. Pais de origen: Estados Unidos, del estudio Pixar Animation Studios y Walt Disney Pictures. Carl es un vendedor de globos, el cual tiene un sueño de volar con su casa llena de globos sudamerica y de pronto conoce a Russel con quien primero mantiene un recelo, pero luego, estos comienzan a vivir grandes aventuras juntos, volando por ditintos lugares. 
 
 ### Imagen de referencia de proyecto
-<img width="1024" height="1024" alt="C9" src="https://github.com/user-attachments/assets/157020a7-be1b-428f-a5c5-cd3a58f23b84" />
+<img width="1024" height="1032" alt="portada up" src="https://github.com/user-attachments/assets/90a1644d-7da6-44e7-bff7-44fd81134180" />
+
 Deja acá una imagen de la "portada" de tu proyecto. Como si fuera un afiche. Puede ser un fotograma de toda la interacción.
 
 ### Integrantes
