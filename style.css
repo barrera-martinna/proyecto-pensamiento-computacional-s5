@@ -47,6 +47,7 @@ html, body {
 #contenedor-canvas {
     flex-grow: 1; /* Obliga a la caja a estirarse para rellenar el vacío */
     width: 100%;
+    height: 100%; /* CORREGIDO: Fuerza a que tenga altura visible */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,3 +59,4 @@ canvas {
     display: block; /* Elimina un pequeño margen inferior invisible propio de las imágenes */
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 }
+
