@@ -5,7 +5,7 @@ Martinna Barrera
 
 ## Link de web pública (github pages)
 
-<https://link.com>
+<https://link.com> https://barrera-martinna.github.io/sketchinteractivo.martinna/
 
 ### Título del proyecto
 
