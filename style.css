@@ -1,0 +1,52 @@
+/* Elimina márgenes molestos del navegador */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Arial Black', Gadget, sans-serif; /* Fuente gruesa para resaltar el borde */
+    background-color: #f5f5f5;
+}
+
+/* Diseño de la franja naranja de 4cm de alto */
+.franja-superior {
+    background-color: #ff6600; /* Naranja encendido */
+    width: 100%;               /* Llena toda la pantalla horizontalmente */
+    height: 4cm;               /* Altura exacta de por lo menos 4 centímetros */
+    display: flex;             /* Usado para centrar el texto vertical y horizontalmente */
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra decorativa abajo */
+}
+
+/* Estilo del texto blanco con borde negro */
+.franja-superior h1 {
+    margin: 0;
+    font-size: 42px;           /* Tamaño grande y visible */
+    color: white;              /* Letras blancas */
+    text-transform: none;      /* Respeta tus mayúsculas y minúsculas */
+    
+    /* Truco de CSS para simular un borde negro alrededor de las letras blancas */
+    text-shadow: 
+        -2px -2px 0 #000,  
+         2px -2px 0 #000,
+        -2px  2px 0 #000,
+         2px  2px 0 #000,
+        -3px  0px 0 #000,
+         3px  0px 0 #000,
+         0px -3px 0 #000,
+         0px  3px 0 #000;
+}
+
+/* Centra el recuadro del código de p5.js abajo */
+#contenedor-canvas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+canvas {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
