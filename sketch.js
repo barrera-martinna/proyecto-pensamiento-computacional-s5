@@ -46,12 +46,10 @@ function preload() {
 
 function setup() {
 
-  // Buscamos tu contenedor HTML y medimos el espacio disponible que deja la franja
   let contenedor = document.getElementById('contenedor-canvas');
   let anchoDisponible = contenedor.clientWidth;
   let altoDisponible = contenedor.clientHeight;
 
-  // Creamos el lienzo con esas medidas y lo metemos en tu contenedor
   let canvas = createCanvas(anchoDisponible, altoDisponible);
   canvas.parent('contenedor-canvas');
 
@@ -107,7 +105,7 @@ function draw() {
       estado = 5;}
   }
     
-   //si la variable estado es igual a 5 se ejecutara todo lo siguiente dentro de las llaves, la condicional de interaccion para el cursor del mouse en eje x 
+   //si la variable estado es igual a 5 se ejecutara todo lo mosquito dentro de las llaves, la condicional de interaccion para el cursor del mouse en eje x 
   else if (estado == 5) {
 
    //permite mostrar la secuencia de imagenes 
@@ -211,8 +209,9 @@ function mostrarTexto(mensaje) {
 //funcion para que el sketch sea adaptable a las pantallas 
 function windowResized() {
 
-  // Reajusta el lienzo midiendo de nuevo el espacio libre del contenedor en tiempo real
   let contenedor = document.getElementById('contenedor-canvas');
   resizeCanvas(contenedor.clientWidth, contenedor.clientHeight);
 
 }
+
+//inspiracion escena de up cuando la casa esta volando y quedan colgando de una soga, russel, carl y el perro 
